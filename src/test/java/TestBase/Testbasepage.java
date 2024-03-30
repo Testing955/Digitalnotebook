@@ -10,6 +10,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
@@ -29,6 +30,7 @@ logger = LogManager.getLogger(this.getClass());
 switch(br.toLowerCase())
 {
 case "chrome": driver=new ChromeDriver();break;
+case "safari": driver=new SafariDriver();break;
 }
 driver.get(p.getProperty("appURL"));
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -50,5 +52,12 @@ public String AlphaNumeric()
 String str = RandomStringUtils.randomAlphabetic(3);
 String nbr = RandomStringUtils.randomNumeric(3);
 return (str+"@"+nbr);
+}
+public void tearDown() 
+{
+    if (driver != null) 
+    {
+        driver.quit();
+    }
 }
 }

@@ -9,17 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,332</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Forget Password Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,346</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">22,678</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">usercreateTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,083</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testcases.TC_001_Adminsignin</td><td><a href="#m0">signin</a></td><td rowspan="1">1711533182937</td><td rowspan="1">10067</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Forget Password Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testcases.TC_002AdminForgetpassword</td><td><a href="#m1">forgetpwd</a></td><td rowspan="1">1711533200334</td><td rowspan="1">1050</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">usercreateTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testcases.TC_003_Usermanagement</td><td><a href="#m0">user</a></td><td rowspan="1">1711758697536</td><td rowspan="1">20359</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">Testcases.TC_001_Adminsignin#signin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at Testcases.TC_001_Adminsignin.signin(TC_001_Adminsignin.java:36)
+<h2>usercreateTest</h2><h3 id="m0">Testcases.TC_003_Usermanagement#user</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;rounded-full border text-white text-xl font-medium font-roboto_mono border-dark w-[44px] h-[44px] flex items-center justify-center bg-[#DE9...16]&quot;&gt;A&lt;/span&gt; is not clickable at point (1275, 53). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+  (Session info: chrome=123.0.6312.87)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.7.10&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71b22f959658a4cc7d5fc544deb7d81a, clickElement {id=f.66428C43F3944A890BECF78842849428.d.4002A5B0D774A6D9D87D89D5D4C8D549.e.145}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.87, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: /var/folders/k6/j5yvbhgd4dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63412/devtoo..., se:cdpVersion: 123.0.6312.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (71b22f959658a4cc7d5fc544deb7d81a)] -&gt; xpath: //*[@id=&quot;menu-button&quot;]/span]
+Session ID: 71b22f959658a4cc7d5fc544deb7d81a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at PageObject.Adminlogin.drop(Adminlogin.java:45)
+	at Testcases.TC_003_Usermanagement.user(TC_003_Usermanagement.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Forget Password Test</h2><h3 id="m1">Testcases.TC_002AdminForgetpassword#forgetpwd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,7 +1,7 @@
 package Testcases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import PageObject.Adminlogin;
@@ -35,5 +35,9 @@ catch(Exception e)
 logger.error("test failed");	
 Assert.fail();
 }
+}
+@AfterMethod
+public void tearDownTest() {
+    tearDown();  // Calling the tearDown method from Testbasepage class
 }
 }

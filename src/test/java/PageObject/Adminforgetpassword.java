@@ -4,7 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Adminforgetpassword extends Baseclass
+import Utilities.UserEmailStorage;
+
+public class Adminforgetpassword extends Adminlogin
 {
 WebDriver driver;
 public Adminforgetpassword(WebDriver driver)
@@ -25,7 +27,8 @@ fpwd.click();
 }
 public void emaiuserfield()
 {
-emailfield.sendKeys("admin@gmail.com");
+String userEmail = UserEmailStorage.getUserEmail();
+emailfield.sendKeys(userEmail);
 }
 public void submit()
 {

@@ -3,14 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="os" value="mac"/>
   <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="usercreateTest(failed)">
     <classes>
-      <class name="Testcases.TC_001_Adminsignin">
+      <class name="Testcases.TC_003_Usermanagement">
         <methods>
+          <include name="user"/>
           <include name="setup"/>
-          <include name="signin"/>
+          <include name="tearDownTest"/>
         </methods>
-      </class> <!-- Testcases.TC_001_Adminsignin -->
+      </class> <!-- Testcases.TC_003_Usermanagement -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- usercreateTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
