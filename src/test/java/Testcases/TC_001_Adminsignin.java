@@ -9,7 +9,7 @@ import TestBase.Testbasepage;
 
 public class TC_001_Adminsignin extends Testbasepage
 {
-@Test
+@Test(groups= {"sanity","master"})
 public void signin()
 {
 logger.info("**Starting of the testcase**");

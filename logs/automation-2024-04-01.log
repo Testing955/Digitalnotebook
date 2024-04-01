@@ -1,0 +1,60 @@
+13:38:20.171 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+13:38:30.230 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+13:38:35.288 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+13:44:24.070 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+13:44:24.657 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+13:44:24.761 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+13:44:24.865 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+13:44:34.922 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+13:44:39.982 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+13:45:38.977 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+13:45:39.660 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+13:45:39.737 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+13:45:39.848 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+13:45:49.903 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+13:45:54.966 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+13:48:04.277 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+13:48:04.811 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+13:48:04.977 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+13:48:05.075 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+13:48:15.130 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+13:48:20.260 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+13:51:54.223 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+13:51:54.864 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+13:51:55.023 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+13:51:55.123 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+13:52:05.187 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+13:52:10.247 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+15:02:29.040 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+15:02:29.502 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+15:02:29.672 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+15:02:29.770 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+15:02:39.825 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+15:02:44.887 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:31:23.870 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:31:24.426 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:31:24.520 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+16:31:24.620 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:31:34.673 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:31:39.727 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:35:37.468 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:35:37.960 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:35:38.079 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+16:35:38.176 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:35:48.228 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:35:53.286 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:40:43.202 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:40:43.698 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:40:43.846 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+16:40:43.942 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:40:53.993 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:40:59.053 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:43:50.770 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:43:51.268 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:43:51.422 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+16:43:51.518 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:44:01.575 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:44:06.634 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:48:33.652 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:48:34.216 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:48:34.286 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password

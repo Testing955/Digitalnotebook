@@ -3,10 +3,21 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="os" value="mac"/>
   <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Utilities.ExtentReportManager"/>
+  </listeners>
   <test thread-count="5" name="usercreateTest(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+        <exclude name=""/>
+      </run>
+    </groups>
     <classes>
       <class name="Testcases.TC_003_Usermanagement">
         <methods>
+          <include name="tearDown"/>
           <include name="user"/>
           <include name="setup"/>
           <include name="tearDownTest"/>

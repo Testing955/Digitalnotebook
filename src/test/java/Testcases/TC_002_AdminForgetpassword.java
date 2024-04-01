@@ -8,7 +8,7 @@ import TestBase.Testbasepage;
 
 public class TC_002_AdminForgetpassword  extends Testbasepage
 {
-@Test
+@Test(groups={"sanity","master","regression"})
 public void forgetpwd()
 {
 Adminforgetpassword fpass = new Adminforgetpassword(driver);

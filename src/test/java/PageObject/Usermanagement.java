@@ -82,10 +82,10 @@ public void selectgender()
 {
 gender.click();
 }
-public void ue()
+public void ue(String emailupdate)
 {
 updateemail.clear();
-updateemail.sendKeys("princehestabit@gmail.com");
+updateemail.sendKeys(emailupdate);
 }
 public void update()
 {

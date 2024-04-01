@@ -1,53 +1,15 @@
-02:33:27.942 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
-02:33:28.045 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
-02:33:38.097 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
-02:33:43.159 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
-04:20:30.096 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
-04:20:31.182 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
-04:20:31.247 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
-04:20:31.348 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
-04:20:41.402 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
-04:20:46.462 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
-04:26:20.440 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
-04:26:21.417 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
-04:26:21.483 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
-04:26:21.705 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
-04:26:31.755 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
-04:26:36.811 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
-04:27:51.555 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
-04:27:52.951 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
-04:27:53.020 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
-04:27:53.178 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
-04:28:03.233 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
-04:28:08.292 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
-04:30:19.008 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:30:47.354 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
-04:30:47.359 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:31:15.392 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:31:43.203 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:32:12.331 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:33:57.849 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:34:16.747 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
-04:34:16.751 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:34:34.574 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:35:48.464 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:35:56.562 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
-04:35:56.569 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:36:03.314 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:38:05.620 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:38:18.417 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:38:28.478 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:40:59.858 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:41:27.955 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
-04:41:27.960 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:45:53.295 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:46:23.790 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
-04:46:23.794 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:50:10.032 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:50:38.042 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
-04:50:38.046 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:50:48.269 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:50:58.449 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:51:08.636 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:51:18.821 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
-04:51:29.023 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+16:48:34.441 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:48:44.499 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:48:49.558 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:51:57.205 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:51:57.860 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:51:57.945 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+16:51:58.044 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:52:08.099 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:52:13.157 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+16:56:42.714 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+16:56:43.219 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+16:56:43.382 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+16:56:43.482 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+16:56:53.532 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
+16:56:58.589 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button

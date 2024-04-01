@@ -5,6 +5,7 @@
     <classes>
       <class name="Testcases.TC_003_Usermanagement">
         <methods>
+          <include name="tearDown"/>
           <include name="user"/>
           <include name="setup"/>
           <include name="tearDownTest"/>
