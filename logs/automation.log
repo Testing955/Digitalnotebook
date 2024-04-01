@@ -13,3 +13,8 @@
 16:56:43.482 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
 16:56:53.532 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the dropdown button
 16:56:58.589 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the logout button
+20:22:44.880 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+20:22:45.387 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+20:22:45.465 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+20:22:45.607 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+20:23:05.675 [main] ERROR Testcases.TC_001_Adminsignin - test failed

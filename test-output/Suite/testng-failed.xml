@@ -15,6 +15,13 @@
       </run>
     </groups>
     <classes>
+      <class name="Testcases.TC_001_Adminsignin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="signin"/>
+        </methods>
+      </class> <!-- Testcases.TC_001_Adminsignin -->
       <class name="Testcases.TC_003_Usermanagement">
         <methods>
           <include name="tearDown"/>
