@@ -9,23 +9,23 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">usercreateTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">43,981</td><td>regression, sanity</td><td></td></tr>
+<tr><td><a href="#t0">usercreateTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">43,561</td><td>regression, sanity</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">usercreateTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testcases.TC_001_Adminsignin</td><td><a href="#m0">signin</a></td><td rowspan="1">1711983164873</td><td rowspan="1">20804</td></tr><tr class="failedodd"><td rowspan="1">Testcases.TC_003_Usermanagement</td><td><a href="#m1">user</a></td><td rowspan="1">1711983188587</td><td rowspan="1">10761</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">usercreateTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testcases.TC_001_Adminsignin</td><td><a href="#m0">signin</a></td><td rowspan="1">1713338291566</td><td rowspan="1">20755</td></tr><tr class="failedodd"><td rowspan="1">Testcases.TC_003_Usermanagement</td><td><a href="#m1">user</a></td><td rowspan="1">1713338315095</td><td rowspan="1">10806</td></tr></tbody>
 </table>
 <h2>usercreateTest</h2><h3 id="m0">Testcases.TC_001_Adminsignin#signin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
 	at Testcases.TC_001_Adminsignin.signin(TC_001_Adminsignin.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">Testcases.TC_003_Usermanagement#user</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[1]/div[2]/a&quot;}
-  (Session info: chrome=123.0.6312.87)
+  (Session info: chrome=123.0.6312.124)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.7.10&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [288171e51bcec9b4e148817333fffba1, findElement {value=//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[1]/div[2]/a, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.87, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: /var/folders/k6/j5yvbhgd4dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60297/devtoo..., se:cdpVersion: 123.0.6312.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 288171e51bcec9b4e148817333fffba1
+Command: [d289c7c4bf11db8207b76ff4abacb3ea, findElement {value=//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[1]/div[2]/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: /var/folders/k6/j5yvbhgd4dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56526}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56526/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d289c7c4bf11db8207b76ff4abacb3ea
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)

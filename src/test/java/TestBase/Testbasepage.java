@@ -71,7 +71,7 @@ public String captureScreen(String tname) throws IOException {
 	TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 	File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 	
-	String targetFilePath="/Users/hestabit/eclipse-workspace/Digitalnotebook/Screenshots" + tname + "_" + timeStamp + ".png";
+	String targetFilePath="/Users/hestabit/eclipse-workspace/Digitalnotebook/Screenshots/" + tname + "_" + timeStamp + ".png";
 	File targetFile=new File(targetFilePath);
 	
 	sourceFile.renameTo(targetFile);

@@ -18,3 +18,31 @@
 20:22:45.465 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
 20:22:45.607 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
 20:23:05.675 [main] ERROR Testcases.TC_001_Adminsignin - test failed
+13:48:52.143 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+13:49:19.276 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Finish of the TC_002_DDT***
+13:49:19.282 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+13:49:29.458 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+13:49:39.672 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+13:49:49.865 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+13:50:00.052 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+13:50:10.209 [main] INFO  Testcases.TC_004_Usermanagement_TTD - ***Starting of the TC_004***
+15:04:13.394 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+15:04:13.915 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+15:04:14.062 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+15:04:14.159 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+15:04:24.174 [main] ERROR Testcases.TC_001_Adminsignin - test failed
+15:05:12.740 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+15:05:13.258 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+15:05:13.423 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+15:05:13.525 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+15:05:33.574 [main] ERROR Testcases.TC_001_Adminsignin - test failed
+12:44:49.939 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+12:44:50.549 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+12:44:50.621 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+12:44:50.721 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+12:45:10.773 [main] ERROR Testcases.TC_001_Adminsignin - test failed
+12:48:11.577 [main] INFO  Testcases.TC_001_Adminsignin - **Starting of the testcase**
+12:48:12.112 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid email
+12:48:12.180 [main] INFO  Testcases.TC_001_Adminsignin - Entering valid password
+12:48:12.281 [main] INFO  Testcases.TC_001_Adminsignin - Clicking on the signin button
+12:48:32.318 [main] ERROR Testcases.TC_001_Adminsignin - test failed

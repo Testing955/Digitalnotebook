@@ -39,7 +39,7 @@ public class ExtentReportManager implements ITestListener {
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		repName = "Test-Report-" + timeStamp + ".html";
-		sparkReporter = new ExtentSparkReporter("/Users/hestabit/eclipse-workspace/Digitalnotebook/Reports" + repName);// specify location of the report
+		sparkReporter = new ExtentSparkReporter("/Users/hestabit/eclipse-workspace/Digitalnotebook/Reports/" + repName);// specify location of the report
 
 		sparkReporter.config().setDocumentTitle("Digitalnotebook Automation Report"); // Title of report
 		sparkReporter.config().setReportName("Digitalnotebook Functional Testing"); // name of the report
@@ -100,7 +100,7 @@ public class ExtentReportManager implements ITestListener {
 		
 		extent.flush();
 		
-		String pathOfExtentReport = "/Users/hestabit/eclipse-workspace/Digitalnotebook/Reports"+repName;
+		String pathOfExtentReport = "/Users/hestabit/eclipse-workspace/Digitalnotebook/Reports/"+repName;
 		File extentReport = new File(pathOfExtentReport);
 		
 		try {
